@@ -1,0 +1,25 @@
+main{
+    max-width: 900px;
+    width: 100%px;
+    margin: auto;
+    text-align: center;
+}
+
+.jatekter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.jatekter div{
+    aspect-ratio: 1;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 35px;
+    cursor: wait;
+    padding: 100px;
+}
+
+footer{
+    padding: 30px;
+}
